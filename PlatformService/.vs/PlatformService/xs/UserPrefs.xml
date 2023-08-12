@@ -1,0 +1,36 @@
+﻿<Properties StartupConfiguration="{3F300C5C-8F67-4191-9C23-B224A72586A5}|https">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+    <Files>
+      <File FileName="PlatformService.csproj" />
+      <File FileName="Models/Platform.cs" />
+      <File FileName="Data/AppDbContext.cs" />
+      <File FileName="Program.cs" Line="16" Column="55" />
+      <File FileName="Data/IPlatformRepo.cs" />
+      <File FileName="Data/PlatformRepo.cs" />
+      <File FileName="Data/PrepDb.cs" />
+      <File FileName="DTOs/PlatformCreateDto.cs" />
+      <File FileName="Profiles/PlatformProfile.cs" />
+      <File FileName="Controllers/PlatformController.cs" Line="32" Column="10" />
+      <File FileName="Dockerfile" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PlatformService" expanded="True">
+            <Node name="PlatformService" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.PlatformService PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
