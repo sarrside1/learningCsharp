@@ -11,6 +11,11 @@ namespace CommandsService.Data
             _context = context;
         }
 
+        public bool ExternalPlatformExists(int externalPlatformId)
+        {
+            return _context.Platforms.Any(platform => platform.ExternalId == externalPlatformId);
+        }
+
         void ICommandRepo.CreateCommand(int platformId, Command command)
         {
             if(command == null)
